@@ -19,7 +19,7 @@ My projects are only an idea. Are not really made yet.
 
 ## Screenshots of the web site.
 
-![](./assets/images/web-site1.jpeg)
+![](Assets/images/web-site1.jpeg)
 
 ![](./assets/images/web-site2.jpeg)
 
