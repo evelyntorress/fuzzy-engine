@@ -21,13 +21,13 @@ My projects are only an idea. Are not really made yet.
 
 ![](Assets/images/web-site1.jpeg)
 
-![](./assets/images/web-site2.jpeg)
+![](Assets/images/web-site2.jpeg)
 
 
-![](./assets/images/web-site3.jpeg)
+![](Assets/images/web-site3.jpeg)
 
 
-![](./assets/images/web-site4.jpeg)
+![](Assets/images/web-site4.jpeg)
 
 
 
