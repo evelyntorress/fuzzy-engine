@@ -16,7 +16,7 @@ My projects are only an idea. Are not really made yet.
 - Developer's first application, the image is larger in size than the others.
 - Resize the page or view the site on various screens and devices
 
-## Link to my we-site
+## Link to my web-site
 
 https://evelyntorress.github.io/fuzzy-engine/
 
