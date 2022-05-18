@@ -23,15 +23,15 @@ https://evelyntorress.github.io/fuzzy-engine/
 
 ## Screenshots of the web site.
 
-![](Assets/images/web-site1.jpeg)
+![](assets/images/web-site1.jpeg)
 
-![](Assets/images/web-site2.jpeg)
-
-
-![](Assets/images/web-site3.jpeg)
+![](assets/images/web-site2.jpeg)
 
 
-![](Assets/images/web-site4.jpeg)
+![](assets/images/web-site3.jpeg)
+
+
+![](assets/images/web-site4.jpeg)
 
 
 
