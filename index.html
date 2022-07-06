@@ -1,138 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hola!</title>
 
     <!--Link to the stylesheet css  -->
-    <link rel="stylesheet" href="./assets/css/style.css"/>
-    
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./assets/images/pac-man.png">
-    
+    <link rel="icon" type="image/x-icon" href="./assets/images/pac-man.png" />
+
     <!-- Header starts -->
-</head>
-<header>
-<h1 class="title">Welcome</h1>
-   
-<!-- Nav links -->
+  </head>
+  <header>
+    <h1 class="title">Welcome</h1>
+
+    <!-- Nav links -->
     <nav class="nav">
       <ul class="ul">
-        <li class="nav-link"><a href="#about-me">About me</a></li>
-        <li class="nav-link"><a href="#my-work">My work</a></li>
-        <li class="nav-link"><a href="#contact">Let's talk!</a></li>                
+        <li class="nav-link"><a href="#about-me" class="link-navbar">About me</a></li>
+        <li class="nav-link"><a href="#my-work" class="link-navbar">My work</a></li>
+        <li class="nav-link"><a href="#contact" class="link-navbar">Let's talk!</a></li>
       </ul>
     </nav>
-</header>
+  </header>
 
-<!-- Body starts -->
-<body>
+  <!-- Body starts -->
+  <body>
+    <!-- Profile -->
+    <div class="container1">
+      <!-- Link to the profile picture -->
+      <img
+        class="image"
+        src="./assets/images/profile-picture.png"
+        alt="profile-picture"
+      />
 
-<!-- There is a div that contains a class, which is a container that contains bio and profile picture -->
-  <div class="container1">
-    <!-- Link to the profile picture -->
-    <img class="image" src="./assets/images/profile-picture.png" alt="profile-picture">
-
-    <div class="bio">
-      <p>I am Evelyn Torres, a future junior full-stack web developer💻 </p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-      <p>I am currently studying at the University of Toronto.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      <div class="bio">
+        <p>
+          I am Evelyn, a future junior Full Stack Web Developer 💻 at the
+          University of Toronto. Mastering skills in HTML, CSS, JavaScript,
+          APIs, NodeJS, OOP, Express, and SQL among others. Many years of
+          experience working in customer services such as airlines, restaurants
+          and hotels within fast-paced, competitive work environments with an
+          aim to value people before everything else. Excel working under
+          pressure in broad fields.
+        </p>
+      </div>
     </div>
-  </div>
 
-<br>
+    <br />
 
-<div id="my-work">
-<h2 class="my-work">My work</h2>
-</div>
+    <div id="my-work">
+      <h2 class="my-work">My work</h2>
+    </div>
 
+    <!-- Sections that comes from the nav link-->
 
-<!-- Sections that comes from the nav link-->
+    <div class="parent-container">
 
-<!-- Pictures with the links where they are located -->
-
-
-<div class="flex-parent">
-  <div>
-    <h2>PicPartner</h2>
-     <img class="image1" src="./assets/images/image1.jpg" alt="image1">
-     <div class="two">
-      <p>You love to take pictures 📷, but you hate to go alone.</p>
-      <p>Find your pic-partner here!</p>
-      <p>--I use HTML, CSS, Java Script--</p>
-     </div>
-  </div>
-  </div>
-
-  <br>
-
-  <div>
-    <h2>Meet my Puppy</h2>
-      <img class="puppy" src="./assets/images/puppy.jpg" alt="puppy">
-     <div class="two">
-      <p>It doesn't matter your size or breed. Make a new furry friend 🐶 🐱</p>
-      <p>We meet every week!</p>
-      <p>--I use HTML, CSS, Java Script and Node js--</p>
-     </div>
-  </div>
-
-  <br>
-  <div>
-    <h2>Flying away</h2>
-    <img class="flying" src="./assets/images/flying.jpg" alt="flying">
-  <div class="two">
-    <p>The best deals on flights ✈️. We have been in paradise 🌴</p>
-    <p>Meet us there!</p>
-    <p>--I use HTML, CSS, Java Script and Express.js--</p>
-   </div>
-</div>
-
-  <br>
-
-  <div>
-    <h2>I am late!</h2>
-   <img class="late" src="./assets/images/late.jpg" alt="late">
-   <div class="two">
-    <p>We have the best excuses for when the time is not by your side.</p>
-    <p>--I use HTML, CSS and Java Script--</p>
-   </div>
- </div>
-
-</div>
-
-
-<!-- Section -->
- <section>
-      <article>
-
-        <div id="about-me">
-        <h3>About me</h3>
-        
-          <p class="one">I have many years of experience working in teams.</p>
-          <p class="one">My ideas coming for my relation with photography, which is one of my hobbies. </p>
-          <p class="one">I am sure my past jobs experience in culinary arts field and tourism would help in a way to buildt interesting web sites.</p>
+      <div class="container-6">
+        <h2 class="title-6">OnClick News</h2>
+        <img
+          class="project-1"
+          src="./assets/images/onclick-news.jpeg"
+          alt="project-1"
+        />
+        <div class="six">
+          <p>This is a team project. In this project we designed a news website</p>
+          <p> that will provide highlights of top stories. For this purpose,</p>
+          <p>we used two server side API's, one to fetch finance news including</p>
+          <p>stock market data and second to fetch news from other categories.</p>
+          <br/>
+          <strong>You can check the deployed site <a href="https://pooja3093.github.io/refactored-succotash-/">here!</a></strong>
+          <strong> and github <a href="https://github.com/Pooja3093/refactored-succotash-">here!</a></strong>
+          
+          <p>--We use Materialize, as a CSS Framework--</p>
+          <p>--JavaScript, APIs, Local storage --</p>
         </div>
-       
-       
- 
+      </div>
+      <br />
+
+      <div class="container-5">
+        <h2 class="title-5">Express Movies</h2>
+        <img
+          class="project-2"
+          src="./assets/images/express-movies.jpeg"
+          alt="project-2"
+        />
+        <div class="five-">
+          <p>This is a team project. We decided that building a site that allows</p>
+          <p>users to interact and provide their own reviews,</p>
+          <p>would help anyone when looking for that next exciting movie to watch.</p>
+          <br/>
+          <strong>You can check the deployed site <a href="http://vast-shelf-82768.herokuapp.com/">here!</a></strong>
+          <strong> and github <a href="https://github.com/WilliamL1998/crispy-octo-bassoon/">here!</a></strong>
+          <p>--We use Bulma, as a CSS Framework--</p>
+          <p>--JavaScript, Expressjs for the back-end and it was deployed in Heroku.--</p>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="container-2">
+        <div class="flex-parent">
+          <div>
+            <h2 class="title-1">PicPartner</h2>
+            <img class="image1" src="./assets/images/image1.jpg" alt="image1" />
+            <div class="two">
+              <p>You love to take pictures 📷, but you hate to go alone.</p>
+              <p>Find your pic-partner here!</p>
+              <br />
+              <p>--I use HTML, CSS, Java Script--</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <div class="container-3">
+        <h2 class="title-2">Meet my Puppy</h2>
+        <img class="puppy" src="./assets/images/puppy.jpg" alt="puppy" />
+        <div class="three">
+          <p>It doesn't matter your size or breed.</p>
+          <p>Make a new furry friend 🐶 🐱</p>
+          <p>We meet every week!</p>
+          <br />
+          <p>--I use HTML, CSS, Java Script and Node js--</p>
+        </div>
+      </div>
+
+      <br />
+      <div class="container-2">
+        <h2 class="title-3">Flying away</h2>
+        <img class="flying" src="./assets/images/flying.jpg" alt="flying" />
+        <div class="four">
+          <p>The best deals on flights ✈️</p>
+          <p>We have been in paradise 🌴</p>
+          <p>Meet us there!</p>
+          <br />
+          <p>--I use HTML, CSS, Java Script and Express.js--</p>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="container-3">
+        <h2 class="title-4">I am late!</h2>
+        <img class="late" src="./assets/images/late.jpg" alt="late" />
+        <div class="five">
+          <p>We have the best excuses</p>
+          <p>when the time is not by your side.</p>
+          <br />
+          <p>--I use HTML, CSS and Java Script--</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section -->
+    <section>
+      <article>
+        <div id="about-me">
+          <h3>About me</h3>
+
+          <p class="one">I have many years of experience working in teams.</p>
+          <p class="one">
+            My ideas coming for my relation with photography, which is one of my
+            hobbies.
+          </p>
+          <p class="one">
+            I am sure my past jobs experience in culinary arts field and tourism
+            would help in a way to buildt interesting web sites.
+          </p>
+        </div>
+
         <h3>Let's talk</h3>
         <div id="contact">
-          <p class="one">If you want to contact me, please send me and email to evelyntorress@gmail.com</p>
+          <p class="one">
+            If you want to contact me, please send me an email <a href="evelyntorress@gmail.com" class="email">here!</a>
+          </p>
         </div>
-        </article>
-      </section>
+      </article>
+    </section>
+  </body>
 
-
-</body>
-
-<!-- End of the page, footer -->
-<footer>
+  <!-- End of the page, footer -->
+  <footer>
     <p class="thank-you">for visiting</p>
-    <p class="footer">Evelyn Torres 2022</p> 
-</footer>
-
-
+    <p class="footer">Evelyn Torres 2022</p>
+  </footer>
 </html>

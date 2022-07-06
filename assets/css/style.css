@@ -5,6 +5,19 @@
   color: #112B3C
 }
 
+/* Getting rid of the underline on the links */
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
 
 /* Styling of the header */
 header{
@@ -29,14 +42,11 @@ h1{
   color: #68A7AD;
 }
 
-
-
 /* Styling of the nav links */
 
-a{
+.link-navbar {
   background-color: #68A7AD;
 }
-
 nav{
  background-color: #68A7AD;
  text-decoration: none;
@@ -50,13 +60,11 @@ nav a:hover {
  color: #FFF8F3;
 }
 
-
 .nav-link {
  background-color: #68A7AD;
  display: flex;
  justify-content:space-between;
 }
-
 
 .ul {
  background-color: #68A7AD;
@@ -74,15 +82,13 @@ li{
  background-color: #F7E2E2 ;
 }
 
-
-
 /* Styling of the container1, which includes bio and profile picture */
 
 .bio{
-  padding: 100px 0px 0px 200px;
+  padding: 100px 50px 0px 200px;
   display: flex;
   flex-direction: column;
-  line-height: 0.5;
+  line-height: 2;
 }
 
 .image {
@@ -95,71 +101,125 @@ li{
 }
 
 .container1{
-  padding-bottom: 200px;
+  padding-bottom: 80px;
 }
 
 
-/* From here is the styling for the pictures */
+/* Styling of the pictures */
 
-/* Title first */
+/* Titles */
+.title-1{
+  padding-left: 350px;
+}
+
+.title-2{
+  padding-left: 150px;
+}
+
+.title-3{
+  padding-left: 165px;
+}
+
+.title-4{
+  padding-left: 180px;
+}
+
+.title-5{
+  padding-left:300px;
+}
+
+.title-6 {
+  padding-left: 250px;
+
+}
+
+.container-6{
+  padding-left: 100px;
+
+}
 .my-work {
   margin-bottom: 50px ;
   background-color: #68A7AD; 
   color:#EFEAD8 ;
   font-size: 30px;
   padding: 25px 50px;
-
 }
 
 .my-work:hover {
   color: #FFF8F3;
 }
 
+.parent-container{
+  padding-left: 280px;
+}
 
-
-/* Styling of the Pictures */
-
-/* Flex-box */
 .flex-parent {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  
+}
+.project-2{
+  width: 80%;
+}
+
+.project-1{
+ width: 70%;
+}
+
+a{
+  background-color: #FFF8F3 ;
 }
 
 .image1 {
   padding: 30px;
+  width: 70%;
 }
 
 .image1:hover {
   opacity: 0.5;
 }
+/* Paragraphs */
 
 .two{
- padding: 0px 30px 30px;
+ padding: 0px 10px 30px 200px;
  line-height: 1;
 }
 
+.three{
+  padding: 0px 10px 30px 80px;
+  line-height: 1;
+ }
+
+ .four{
+  padding: 0px 10px 30px 80px;
+  line-height: 1;
+ }
+ 
+ .five{
+  padding: 0px 10px 30px 80px;
+  line-height: 1;
+ }
+ 
+ .five-{
+  padding: 20px 10px 30px 110px;
+  line-height: 1;
+
+ }
 .puppy{
   padding: 30px ;
-
 }
  
 .puppy:hover {
   opacity: 0.5;
 }
 
-  
 .flying{
- 
   padding: 30px ;
-   
-  }
+}
   
 .flying:hover {
     opacity: 0.5;
   }
-
 
 .late{
    padding: 30px ;
@@ -198,9 +258,7 @@ h3 {
 article{
   background-color: #F7E2E2 ;
   padding: 35px;
-  
 }
-
 
 .one{
   background-color: #F7E2E2 ;
@@ -208,6 +266,11 @@ article{
 
 
 /* Styling of the footer */
+
+.email{
+  background-color: #F7E2E2 ;
+}
+
 footer{
     padding: 25px 50px;
     background:#68A7AD;;
